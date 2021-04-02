@@ -35,7 +35,7 @@ const Video = () => {
             animate={{ translateY: -100, opacity:1 }}
             transition={{ duration: 3 }}>
         <Box ml={40} mt={20}>
-            <iframe width="800" 
+            <iframe width="901" 
             height="475" 
             
             src={url} 
@@ -45,20 +45,20 @@ const Video = () => {
                 
             </iframe>
             <Box mt="3">
-            <Image onClick={handleClick} src={team} alt="team" htmlWidth="288" htmlHeight="80" style={{display:"inline-block"}}></Image>
+            <Image onClick={handleClick} src={team} alt="team" htmlWidth="214" htmlHeight="80" style={{display:"inline-block"}}></Image>
 
             <span style={{marginLeft:"15px"}}>
-            <Image onClick={handleClick} src={team} alt="team" htmlWidth="288" htmlHeight="80" style={{display:"inline-block"}}></Image>
+            <Image onClick={handleClick} src={team} alt="team" htmlWidth="214" htmlHeight="80" style={{display:"inline-block"}}></Image>
 
             </span>
 
             <span style={{marginLeft:"15px"}}>
-            <Image onClick={handleClick} src={team} alt="team" htmlWidth="288" htmlHeight="80" style={{display:"inline-block"}}></Image>
+            <Image onClick={handleClick} src={team} alt="team" htmlWidth="214" htmlHeight="80" style={{display:"inline-block"}}></Image>
 
             </span>
 
             <span style={{marginLeft:"15px"}}>
-            <Image onClick={handleClick} src={team} alt="team" htmlWidth="288" htmlHeight="80" style={{display:"inline-block"}}></Image>
+            <Image onClick={handleClick} src={team} alt="team" htmlWidth="214" htmlHeight="80" style={{display:"inline-block"}}></Image>
 
                 
             

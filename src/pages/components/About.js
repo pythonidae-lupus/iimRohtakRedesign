@@ -15,7 +15,7 @@ import {
 const About = () => {
     return (
         <>
-        <Link to="/menu"><Text color="#fff" fontSize="24px" ml="1700px" alignItems='right'>MENU</Text></Link>
+        <Link to="/menu"><Text color="#fff" fontSize="24px" ml="1000px" alignItems='right'>MENU</Text></Link>
         <motion.div initial={{y: 100, opacity:0}}
         animate={{ translateY: -100,opacity:1 }}
         transition={{ duration: 1 }}>

@@ -35,7 +35,7 @@ const Video = () => {
             animate={{ translateY: -100, opacity:1 }}
             transition={{ duration: 3 }}>
         <Box ml={40} mt={20}>
-            <iframe width="1200" 
+            <iframe width="800" 
             height="475" 
             
             src={url} 

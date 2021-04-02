@@ -16,7 +16,7 @@ const Landing = () =>{
 
         <Box> 
             <Link to="/menu"><Text color="#fff" fontSize="24px" ml="1400px">MENU</Text></Link>
-            <Box pt="15%" pb="110px">
+            <Box pt="15%" pb="10px">
             <motion.div 
                 initial={{y: 100}}
                 animate={{ translateY: -100 }}

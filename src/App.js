@@ -6,8 +6,9 @@ import Contact from './pages/Contact';
 import AboutPGP from './pages/components/programmes/PGP/AboutPGP';
 import NavBox from './pages/components/programmes/PGP/NavBox';
 import Footer from './pages/Footer';
-import { ChakraProvider, extendTheme, Button, Box } from "@chakra-ui/react"
-import {Fonts} from './Fonts'
+import { ChakraProvider, extendTheme, Button, Box } from "@chakra-ui/react";
+import { createBreakpoints } from "@chakra-ui/theme-tools";
+import {Fonts} from './Fonts';
 import './App.css';
 import p5 from 'p5';
 import Sketch from "react-p5";
@@ -20,10 +21,13 @@ import {
 } from "react-router-dom";
 import React, { useEffect } from 'react';
 
+const breakpoints = createBreakpoints({sm:"320px", md:"768px", lg:"1200px",xl:"1440px"});
+
 const theme = extendTheme({
   fonts: {
     body: 'Montserrat',
   },
+  breakpoints,
 })
 
 function App() {

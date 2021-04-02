@@ -20,7 +20,7 @@ const Video = () => {
     }
     return (
         <>
-        <Link to="/menu"><Text color="#fff" fontSize="24px" ml="1300px" alignItems='right'>MENU</Text></Link>
+        <Link to="/menu"><Text color="#fff" fontSize="24px" ml="1400px" alignItems='right'>MENU</Text></Link>
         <motion.div 
             initial={{y: 100, opacity:0}}
             animate={{ translateY: -100, opacity:1 }}

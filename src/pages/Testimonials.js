@@ -11,7 +11,7 @@ const Testimonials = () => {
             </Center>
             <Center>
                 <Divider orientation='horizontal' color='#fff' mt={20} w='800px'></Divider></Center>
-            <Text color="#fff" fontSize="24px" mt={20}>
+            <Text color="#fff" fontSize="18px" mt={20}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Faucibus nisl tincidunt eget nullam non nisi. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. 
                 Cras sed felis eget velit aliquet sagittis id. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. 

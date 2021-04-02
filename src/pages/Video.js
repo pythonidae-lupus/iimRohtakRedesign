@@ -34,6 +34,7 @@ const Video = () => {
             initial={{y: 100, opacity:0}}
             animate={{ translateY: -100, opacity:1 }}
             transition={{ duration: 3 }}>
+        <Center>
         <Box ml={40} mt={20}>
             <iframe width="901" 
             height="475" 
@@ -66,6 +67,7 @@ const Video = () => {
             
             </Box>
         </Box>
+        </Center>
         </motion.div>
         <Footer/>
         </>

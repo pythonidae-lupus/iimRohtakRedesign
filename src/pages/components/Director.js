@@ -4,7 +4,7 @@ import director from "../../assets/director.jpg";
 
 const Director = () => {
     return (
-        <Grid p={20} templateColumns="repeat(3, 1fr)" gap={6}>
+        <Grid p={20} pt={10} templateColumns="repeat(3, 1fr)" gap={6}>
             <GridItem colSpan={2} >
                 <Text fontSize="48px" color="#fff">DIRECTOR'S MESSAGE</Text>
                 <Text color="#fff" fontSize="18px" pt="10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -27,7 +27,7 @@ const Director = () => {
                     Egestas diam in arcu cursus euismod. Aliquam etiam erat velit scelerisque in.</Text>
             </GridItem>
             <GridItem>
-                <Image boxSize="600px" pt="90px" src={director}></Image>
+                <Image boxSize="700px" pt="90px" src={director}></Image>
                 <a style={{color:'#fff'}} href="https://unsplash.com/@yoitscalebb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Credit: Caleb Stokes</a> <span style={{color:'#fff'}}>on</span> <a style={{color:'#fff'}} href="/s/photos/portrait-red?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
                     Unsplash
                 </a>

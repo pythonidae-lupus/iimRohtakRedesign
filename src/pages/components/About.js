@@ -15,13 +15,13 @@ import {
 const About = () => {
     return (
         <>
-        <Link to="/menu"><Text color="#fff" fontSize="24px" ml="1400px" alignItems='right'>MENU</Text></Link>
+        <Link to="/menu"><Text color="#fff" fontSize="18px" ml="1400px" alignItems='right'>MENU</Text></Link>
         <motion.div initial={{y: 100, opacity:0}}
         animate={{ translateY: -100,opacity:1 }}
         transition={{ duration: 1 }}>
         <Grid templateRows="repeat(2, 1fr)" gap={6} p={20} pt={10} pb={0} h="830px">
         
-        <GridItem color="#fff" fontSize="24px">
+        <GridItem color="#fff" fontSize="18px">
             <Text fontSize="48px">ABOUT</Text>
             <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -55,7 +55,7 @@ const About = () => {
                 <GridItem >
                     <Box color="#fff" >
                         <Text fontSize="48px">MISSION</Text>
-                        <Text fontSize="24px">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <Text fontSize="18px">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Text>
                     </Box>
                 </GridItem>

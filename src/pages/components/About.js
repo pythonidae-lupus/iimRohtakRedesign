@@ -48,7 +48,7 @@ const About = () => {
                 <GridItem>
                     <Box color="#fff" >
                         <Text fontSize="48px">VISION</Text>
-                        <Text fontSize="24px">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        <Text fontSize="18px">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Text>
                     </Box>
                 </GridItem>

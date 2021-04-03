@@ -7,7 +7,7 @@ const Director = () => {
         <Grid p={20} templateColumns="repeat(3, 1fr)" gap={6}>
             <GridItem colSpan={2} >
                 <Text fontSize="48px" color="#fff">DIRECTOR'S MESSAGE</Text>
-                <Text color="#fff" fontSize="24px" pt="10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                <Text color="#fff" fontSize="18px" pt="10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Mattis nunc sed blandit libero volutpat sed cras. Dolor morbi non arcu risus quis varius quam quisque. Cras ornare arcu dui vivamus arcu felis bibendum ut. 
                     Dolor purus non enim praesent. Consectetur adipiscing elit ut aliquam purus. Aliquet porttitor lacus luctus accumsan. 
                     Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. 
@@ -27,7 +27,7 @@ const Director = () => {
                     Egestas diam in arcu cursus euismod. Aliquam etiam erat velit scelerisque in.</Text>
             </GridItem>
             <GridItem>
-                <Image h="800px" pt="90px" src={director}></Image>
+                <Image boxSize="600px" pt="90px" src={director}></Image>
                 <a style={{color:'#fff'}} href="https://unsplash.com/@yoitscalebb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Credit: Caleb Stokes</a> <span style={{color:'#fff'}}>on</span> <a style={{color:'#fff'}} href="/s/photos/portrait-red?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
                     Unsplash
                 </a>

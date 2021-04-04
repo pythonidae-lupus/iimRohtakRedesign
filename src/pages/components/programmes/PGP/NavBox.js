@@ -74,7 +74,7 @@ const NavBox = () => {
             </GridItem>
             
             
-            <GridItem colSpan={2} mr={20} ml={20} mt={20}>
+            <GridItem colSpan={2} mr={20} ml={20} >
                 <motion.div initial={{y: 100, opacity:0}}
                 animate={{ translateY: -100, opacity:1 }}
                 transition={{ duration: 1 }}>

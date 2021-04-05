@@ -10,7 +10,7 @@ const Footer = () => {
                 <GridItem rowSpan={2} columnSpan={1}>
                     <Image htmlHeight="700px" htmlWidth="700px" src={logo} alt="logo"/>
                 </GridItem>
-                <GridItem columnSpan={1} rowSpan={1}>
+                <GridItem mt = {20} columnSpan={1} rowSpan={1}>
                     <Flex>
                         <List ml={40}>
                             <ListItem color="#fff">Jobs</ListItem>
@@ -32,7 +32,7 @@ const Footer = () => {
                         </List>
                     </Flex>
                 </GridItem>
-                <GridItem mt={20} columnSpan={1} rowSpan={1}>
+                <GridItem columnSpan={1} rowSpan={1}>
                     <Flex>
                         <List ml={40}>
                             <ListItem color="#fff">Jobs</ListItem>

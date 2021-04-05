@@ -6,11 +6,11 @@ const Footer = () => {
     return (
         <>
             
-            <Grid templateRows='repeat(2,1fr)' templateColumns='repeat(2,1fr)' bg="green" pb={20} mt='80px' mr={20}>
+            <Grid templateRows='repeat(2,1fr)' templateColumns='repeat(2,1fr)' bg="green" pb={20} mt='80px' pr={20}>
                 <GridItem rowSpan={2} columnSpan={1}>
                     <Image htmlHeight="700px" htmlWidth="700px" src={logo} alt="logo"/>
                 </GridItem>
-                <GridItem mt={40} columnSpan={1} rowSpan={1}>
+                <GridItem columnSpan={1} rowSpan={1}>
                     <Flex>
                         <List ml={40}>
                             <ListItem color="#fff">Jobs</ListItem>
@@ -32,7 +32,7 @@ const Footer = () => {
                         </List>
                     </Flex>
                 </GridItem>
-                <GridItem mt={40} columnSpan={1} rowSpan={1}>
+                <GridItem mt={20} columnSpan={1} rowSpan={1}>
                     <Flex>
                         <List ml={40}>
                             <ListItem color="#fff">Jobs</ListItem>

@@ -35,7 +35,7 @@ const NavBox = () => {
     return (
         <Box>
         <Link to="/menu"><Text color="#fff" fontSize="24px" ml="1400px" alignItems='right'>MENU</Text></Link>
-        <Grid h='700px' templateColumns='repeat(3,1fr)' gap={6}>
+        <Grid h='700px' templateColumns='repeat(3,1fr)' gap={6} mt={20}>
             
             <GridItem ml={20} >
             <motion.div initial={{y: 100, opacity:0}}

@@ -7,7 +7,7 @@ const AboutPGP = () => {
     return (
        <>
                 <Text fontSize="48px" color="#fff">ABOUT PGP</Text>
-                <Text color="#fff" fontSize="24px" mt={20}>
+                <Text color="#fff" fontSize="18px" mt={20}>
                 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Faucibus nisl tincidunt eget nullam non nisi. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. 

@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
             
-            <Grid templateRows='repeat(2,1fr)' templateColumns='repeat(2,1fr)' bg="green" pb={20} mt='130px'>
+            <Grid templateRows='repeat(2,1fr)' templateColumns='repeat(2,1fr)' bg="green" pb={20} mt='80px' mr={20}>
                 <GridItem rowSpan={2} columnSpan={1}>
                     <Image htmlHeight="700px" htmlWidth="700px" src={logo} alt="logo"/>
                 </GridItem>
